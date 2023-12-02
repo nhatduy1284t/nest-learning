@@ -1,0 +1,11 @@
+runtime: nodejs18
+service:
+env_variables:
+  GAE_SERVICE: 1
+  GAE_RUNTIME: 2
+  CONFIG_KEY: "projects/171094637308/secrets/CONFIG_KEY/versions/1"
+  POSTGRES_HOST: /cloudsql/nestjstest-405215:asia-southeast1:bort
+  POSTGRES_PORT: 5432
+  POSTGRES_USERNAME: postgres
+  POSTGRES_PASSWORD: ^%#6&F*R?`SXq(%&
+  POSTGRES_DATABASE: postgres
